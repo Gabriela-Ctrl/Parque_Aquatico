@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,25 +10,52 @@
   <!-- Estilos (Link CSS) -->
   <link rel="stylesheet" href="estilos.css">
 </head>
+
 <body>
 
   <!-- ___________________________________________________________________ -->
   <!-- Cabeçalho -->
 
   <header>
-    <img src="images/logo.png" alt="Logo do Parque Aquático">
-    <h1>Parque Aquático</h1>
-    <!-- Links -->
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="atracoes.html">Atrações</a>
-      <a href="contato.html">Formulário de contato</a>
-    </nav>
-    <!-- Barra de pesquisa -->
-    <div class="pesquisa">
-      <input type="text" placeholder="Pesquisar...">
-      <button type="submit">Pesquisar</button>
-    </div>
+
+    <section class="header_gap">
+      <img src="images/logo.png" alt="Logo do Jungle Splash">
+      <h1>Jungle Splash</h1>
+    </section>
+
+  <!-- Barra de pesquisa -->
+      <div class="pesquisa">
+        <input type="text" placeholder="Pesquisar...">
+        <button type="submit">
+          <img src="#" alt="">
+        </button>
+      </div>
+
+    <!-- Links NAVEGAÇÃO -->
+
+    <!-- Container -->
+    <section class="header_gap" id="nav_cont">
+
+      <!-- Menu -->
+      <nav>
+
+        <!-- Links -->
+        <div class="home botao">
+          <a href="index.html">Home</a>
+        </div>
+
+        <!-- Links -->
+        <div class="atracoes botao">
+          <a href="atracoes.html">Atrações</a>
+        </div>
+
+        <!-- Links -->
+        <div class="contato botao">
+          <a href="contato.html">Formulário de contato</a>
+        </div>
+      </nav>
+    </section>
+
   </header>
 
   <!-- ___________________________________________________________________ -->
@@ -67,13 +95,13 @@
     </section>
     <!-- Nossos números -->
     <section class="numeros">
-        <h2>Nossos números</h2>
-        <ul>
-          <li>500.000 de visitantes por ano</li>
-          <li>20 piscinas</li>
-          <li>97% de satisfação do cliente</li>
-        </ul>
-      </section>
+      <h2>Nossos números</h2>
+      <ul>
+        <li>500.000 de visitantes por ano</li>
+        <li>20 piscinas</li>
+        <li>97% de satisfação do cliente</li>
+      </ul>
+    </section>
   </main>
 
   <!-- ___________________________________________________________________ -->
@@ -89,4 +117,5 @@
   </footer>
 
 </body>
+
 </html>

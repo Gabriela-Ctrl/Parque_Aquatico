@@ -13,91 +13,17 @@ body{
 }
 
 /* HEADER LOGO, NOME E MENU */
-header{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    height: 100px;
-    background-color: #1D5D9B;
-}
 
-/* ESPAÇAMENTO DENTRO DOS FILHOS DO HEADER */
+/* MAIN */
 
-/* Container Logo e Nome */
-.header_gap{
-    display: flex;
-    height: 100%;
-    align-items: center;
-}
-
-/* Imagem */
-.header_gap img{
-    height: 90%;
-    width: 90px;
-}
-
-/* Título */
-.header_gap h1{
-    margin-left: 20px;
-    font-family: Ultra, sans-serif;
-}
-
-/* BARRA DE PESQUISA */
-
-/* Geral */
-.pesquisa, .pesquisa input, .pesquisa button{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 /* Container */
-.pesquisa{
-    width: 50%;
-    height:100%;  
+.carrossel{
+    width: 100%;
+
 }
 
-/* Barra de Pesquisa */
-.pesquisa input{
-    height: 40%;
-    width: 50%;
-    border-radius: 100px;
-    border: hidden;
-    padding-left: 10px;
-}
-
-/* Botão de Pesquisa */
-.pesquisa button {
-    border-color: black;
-    width: 50px;
-    height: 40%;
-    margin-left: 20px;
-}
-
-/* MENU DE NAVEGAÇÃO */
-#nav_cont nav{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    gap:50px;
-    height: 100%;
-}
-
-/* Botões */
-.botao{
-    transition: 0.5s;
-    height: 50%;
-    width: ;
-    display: flex;
-    align-items: center;
-}
-
-/* Hover Botões */
-.botao:hover{
-    background-color: #75C2F6;
-}
-
-/* Links */
-.botao a {
-    text-decoration: none;
-    color: #fff;
+/* Imagem de fundo */
+.carrossel img{
+    width: 100%;
+    filter: brightness(0.3);
 }

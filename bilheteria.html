@@ -1,20 +1,88 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- Favicon -->
+  <link rel="shortcut icon" href="Assets/Logo.png" type="image/x-icon" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="bilheteria.css">
+
+  <!-- Calendario -->
+  <script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/index.global.min.js'></script>
+    <script>
+
+      document.addEventListener('DOMContentLoaded', function() {
+        var calendarEl = document.getElementById('calendar');
+        var calendar = new FullCalendar.Calendar(calendarEl, {
+          initialView: 'dayGridMonth'
+        });
+        calendar.render();
+      });
+
+    </script>
+
 </head>
+
+
 <body>
     
-    <header></header>
+    <header>
+
+        <section class="header_gap">
+          <img src="images/logo.png" alt="Logo do Jungle Splash">
+          <h1>Jungle Splash</h1>
+        </section>
+    
+        <!-- Barra de pesquisa -->
+        <div class="pesquisa">
+        <input type="text" placeholder="Pesquisar...">
+        <button type="submit">
+            <img src="#" alt="">
+        </button>
+        </div>
+    
+        <!-- Links NAVEGAÇÃO -->
+    
+        <!-- Container -->
+        <section class="header_gap" id="nav_cont">
+    
+          <!-- Menu -->
+          <nav>
+    
+            <!-- Links -->
+            <div class="home botao">
+              <a href="index.html">Home</a>
+            </div>
+    
+            <!-- Links -->
+            <div class="atracoes botao">
+              <a href="atracoes.html">Atrações</a>
+            </div>
+    
+            <!-- Links -->
+            <div class="contato botao">
+              <a href="contato.html">Formulário de contato</a>
+            </div>
+          </nav>
+          
+        </section>
+    
+      </header>
 
     <main>
 
-        <section class="slides">
-            <img src="#" alt="promo1">
-            <img src="#" alt="promo2">
-            <img src="#" alt="promo3">
+        <!-- Imagem promocional -->
+        <section class="promocional">
+            <img src="Assets/Background/pool_topview2.jpg" alt="">
+        </section>
+
+        <section>
+            
+            <div id='calendar'></div>
+
         </section>
 
     </main>

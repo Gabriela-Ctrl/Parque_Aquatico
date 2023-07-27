@@ -6,7 +6,7 @@
 }
 
 /* FONTE */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family= Ultra & display=swap');
 /* BODY COR DE FUNDO */
 body{
     background-color: #F6F4EB;
@@ -39,10 +39,8 @@ header{
 /* Título */
 .header_gap h1{
     margin-left: 20px;
-    font-family: Ultra;
+    font-family: Ultra, sans-serif;
 }
-
-/* LOGOTIPO E NOME */
 
 /* BARRA DE PESQUISA */
 

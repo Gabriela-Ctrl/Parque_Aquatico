@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
 
 /* RESET DE CONFIG PAGINA */
 *{
@@ -93,6 +94,7 @@ header{
 }
 
 .banner{
+    opacity: 0.5;
     width: 100%;
 }
 
@@ -121,17 +123,28 @@ header{
 .agendar {
 
     display: flex;
-    margin-top: 50px;
     justify-content: space-between;
 }
 
 .comprar{
+    font-size: 50px;
+    font-family: Bree Serif;
 
+    padding-top: 5%;
+    width: 50%;
     background-color: #91C8E4;
+    
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+  
 }
+  
 
 #calendario{
 
-    background-color: #75C2F6;
+    background-color: #749BC2;
     width: 50%;
 }

@@ -5,8 +5,6 @@
     margin: 0;
 }
 
-/* FONTE */
-@import url('https://fonts.googleapis.com/css2?family= Ultra & display=swap');
 /* BODY COR DE FUNDO */
 body{
     background-color: #F6F4EB;
@@ -22,25 +20,11 @@ header{
 }
 
 /* ESPAÇAMENTO DENTRO DOS FILHOS DO HEADER */
-
-/* Container Logo e Nome */
 .header_gap{
     display: flex;
-    height: 100%;
-    align-items: center;
 }
 
-/* Imagem */
-.header_gap img{
-    height: 90%;
-    width: 90px;
-}
-
-/* Título */
-.header_gap h1{
-    margin-left: 20px;
-    font-family: Ultra, sans-serif;
-}
+/* LOGOTIPO E NOME */
 
 /* BARRA DE PESQUISA */
 
@@ -85,10 +69,8 @@ header{
 /* Botões */
 .botao{
     transition: 0.5s;
-    height: 50%;
-    width: ;
-    display: flex;
-    align-items: center;
+    height: 75%;
+    /* width: ; */
 }
 
 /* Hover Botões */
@@ -96,8 +78,5 @@ header{
     background-color: #75C2F6;
 }
 
-/* Links */
-.botao a {
-    text-decoration: none;
-    color: #fff;
-}
+
+/* ---------------------- Body -------------------------- */

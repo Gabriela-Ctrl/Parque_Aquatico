@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
 
 /* RESET DE CONFIG PAGINA */
 *{
@@ -86,7 +87,165 @@ header{
 
 /* ---------------------- Main -------------------------- */
 
-.calendario {
 
+.promocional{
+    position: relative;
+    
+}
+
+.banner{
+    opacity: 0.5;
+    width: 100%;
+}
+
+.titulo-img {
+    position: absolute;
+
+    color: rgb(122, 0, 0);
+    font-size: 64px;
+
+    left: 25%;
+    top: 135px;
+}
+
+.texto-img{
+    position: absolute;
+
+    color: rgb(122, 0, 0);
+    font-size: 32px;
+    
+    left: 25%;
+    top: 205px;
+}
+  
+/* ------------------------------------------------------------ */
+
+.agendar {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.comprar{
+    font-size: 50px;
+    font-family: Bree Serif;
+
+    padding-top: 5%;
+    width: 50%;
+    background-color: #91C8E4;
+    
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+  
+}
+  
+
+#calendario{
+
+    background-color: #749BC2;
+    width: 50%;
+}
+
+/* Footer */
+
+footer {
+    position: absolute;
+    left: 0;
+    top: 570px;
+    width: 100%;
+    height: 40%;
+    background-color: #1D5D9B;
+    /* background-color: #4682A9; */
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+
+}
+
+
+li {
+    list-style: none;
+    padding: 20px;
+}
+
+
+footer img {
+    width: 200px;
+    height: auto;
+    /* padding-bottom: 120px; */
+}
+footer p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+a:hover {
+    cursor: pointer;
+
+}
+
+
+.custom-shape-divider-top-1688056474 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1688056474 svg {
+    position: relative;
+    display: block;
+    width: calc(147% + 1.3px);
+    height: 115px;
+}
+
+.custom-shape-divider-top-1688056474 .shape-fill {
+    fill: #F6F4EB;
+}
+
+/* ______________________________________________________________ */
+/* Responsividade */
+
+@media only screen and (max-width: 798px) {
+
+    footer {
+        flex-direction: column;
+        height: auto;
+    }
+    li {
+        padding: 25px;
+    }
+    ul{
+        display: flex;
+        padding-left: 0;
+
+}
+footer img {
+   padding-left: 20px;
+
+}
+.sociais {
+    margin-top: 30px;
+}
+
+.contato {
+    display: flex;
+    justify-content: center;
+}
 
 }

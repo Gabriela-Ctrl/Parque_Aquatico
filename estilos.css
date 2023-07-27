@@ -13,49 +13,20 @@ body{
 }
 
 /* HEADER LOGO, NOME E MENU */
-header{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    height: 100px;
-    background-color: #1D5D9B;
-}
 
-/* ESPAÇAMENTO DENTRO DOS FILHOS DO HEADER */
+/* MAIN */
 
-/* Container Logo e Nome */
-.header_gap{
-    display: flex;
-    height: 100%;
-    align-items: center;
-}
-
-/* Imagem */
-.header_gap img{
-    height: 90%;
-    width: 90px;
-}
-
-/* Título */
-.header_gap h1{
-    margin-left: 20px;
-    font-family: Ultra, sans-serif;
-}
-
-/* BARRA DE PESQUISA */
-
-/* Geral */
-.pesquisa, .pesquisa input, .pesquisa button{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 /* Container */
-.pesquisa{
-    width: 50%;
-    height:100%;  
+.carrossel{
+    width: 100%;
+
 }
 
+/* Imagem de fundo */
+.carrossel img{
+    width: 100%;
+    filter: brightness(0.3);
+}
 /* Barra de Pesquisa */
 .pesquisa input{
     height: 40%;

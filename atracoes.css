@@ -1,10 +1,81 @@
-/* main __________________________________________________________________________________________________*/
 *{
-   padding: 0%; 
-   margin: 0%;
-   
+    padding: 0%; 
+    margin: 0%;
+    
+ }
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100px;
+    background-color: #1D5D9B;
 }
+
+/* ESPAÇAMENTO DENTRO DOS FILHOS DO HEADER */
+.header_gap{
+    display: flex;
+}
+
+/* LOGOTIPO */
+
+
+
+/* BARRA DE PESQUISA */
+
+/* Geral */
+.pesquisa, .pesquisa input, .pesquisa button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Container */
+.pesquisa{
+    width: 50%;
+    height:100%;  
+}
+
+/* Barra de Pesquisa */
+.pesquisa input{
+    height: 40%;
+    width: 50%;
+    border-radius: 100px;
+    border: hidden;
+    padding-left: 10px;
+}
+
+/* Botão de Pesquisa */
+.pesquisa button {
+    border-color: black;
+    width: 50px;
+    height: 40%;
+    margin-left: 20px;
+}
+
+/* MENU DE NAVEGAÇÃO */
+#nav_cont nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap:50px;
+    height: 100%;
+}
+
+/* Botões */
+.botao{
+    transition: 0.5s;
+    height: 75%;
+    /* width: ; */
+}
+
+/* Hover Botões */
+.botao:hover{
+    background-color: #75C2F6;
+}
+
+/* main __________________________________________________________________________________________________*/
+
 .filtro{
+    margin-top: 50px;
     background-color:#1D5D9B;
     color: aliceblue;
     list-style: none;
@@ -26,12 +97,14 @@
 }
 
 .container img{
-    width: 700px;
+    width: 500px;
     display: flex;
     justify-content: space-between;
-    margin-left: 700px;
+    margin-left: 400px;
+    margin-right: 10px;
     margin-bottom: 35px;
     border-radius: 10px; 
+    margin-top: 35px;
   
 }
 .container h1{
@@ -39,6 +112,7 @@
     margin-left: 255px;
     font-size: 50px;
     color: #1D5D9B;
+    margin-top: 35px;
     
 }
 .container2 {
@@ -51,15 +125,112 @@
 }
 
 .container2 img{
-    width: 700px;
+    width: 500px;
     display: flex;
     justify-content: space-between;
-    margin-right: 700px;
+    margin-left: 0px;
+    margin-right: 10px;
+    margin-bottom: 35px;
+    border-radius: 10px; 
+    margin-top: 35px;
+  
+}
+.container2 h1{
+    display: flex;
+    margin-left: 255px;
+    font-size: 50px;
+    color: #1D5D9B;
+    margin-top: 35px;
+    margin-right: 80px;
+    
+}
+.container3 {
+    background-color: #f3b04c;
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;  
+    
+
+}
+
+.container3 img{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 400px;
+    margin-right: 10px;
+    margin-bottom: 35px;
+    border-radius: 10px; 
+    margin-top: 35px;
+  
+}
+.container3 h1{
+    display: flex;
+    margin-left: 255px;
+    font-size: 50px;
+    color: #1D5D9B;
+    margin-top: 35px;
+    
+}
+.container4 {
+    background-color: #f3cc4c;
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;  
+    
+
+}
+
+.container4 img{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0px;
+    margin-right: 10px;
+    margin-bottom: 35px;
+    border-radius: 10px; 
+    margin-top: 35px;
+}
+.container4 h1{
+    display: flex;
+    margin-left: 255px;
+    font-size: 50px;
+    color: #1D5D9B;
+    margin-top: 35px;
+    margin-right: 80px;
+}
+.container4 {
+    background-color:#f38f4c;
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;  
+    
+
+}
+
+
+
+/* ________________________________________________________________________ */
+/* .container2 {
+    background-color: #f3bb4c;
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;  
+    
+
+}
+
+.container2 img{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 2050px;
     margin-bottom: 35px;
     border-radius: 10px; 
   
 }
 .container2 h1{
+    margin-top: 35px;
     display: flex;
     margin-left: 1000px;
     font-size: 50px;
@@ -76,7 +247,7 @@
 }
 
 .container3 img{
-    width: 700px;
+    width: 500px;
     display: flex;
     justify-content: space-between;
     margin-left: 700px;
@@ -101,7 +272,7 @@
 }
 
 .container4 img{
-    width: 700px;
+    width: 500px;
     display: flex;
     justify-content: space-between;
     margin-right: 700px;
@@ -115,4 +286,4 @@
     font-size: 50px;
     color: #1D5D9B;
     
-}
+} */

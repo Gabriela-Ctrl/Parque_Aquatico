@@ -10,7 +10,7 @@
   <!-- CSS -->
   <link rel="stylesheet" href="bilheteria.css">
 
-  <!-- Calendario -->
+  <!-- JS do Calendario -->
   <script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/index.global.min.js'></script>
     <script>
 
@@ -29,18 +29,65 @@
 
 <body>
     
-    <header></header>
+    <header>
+
+        <section class="header_gap">
+          <img src="Assets/Logo.png" alt="Logo do Jungle Splash">
+          <h1>Jungle Splash</h1>
+        </section>
+    
+        <!-- Barra de pesquisa -->
+        <div class="pesquisa">
+        <input type="text" placeholder="Pesquisar...">
+        <button type="submit">
+            <img src="#" alt="">
+        </button>
+        </div>
+    
+        <!-- Links NAVEGAÇÃO -->
+    
+        <!-- Container -->
+        <section class="header_gap" id="nav_cont">
+    
+          <!-- Menu -->
+            <nav class="links">
+        
+                <!-- Links -->
+                <div class="home botao">
+                <a href="index.html">Home</a>
+                </div>
+        
+                <!-- Links -->
+                <div class="atracoes botao">
+                <a href="atracoes.html">Atrações</a>
+                </div>
+        
+                <!-- Links -->
+                <div class="contato botao">
+                <a href="contato.html">Formulário de contato</a>
+                </div>
+
+            </nav>
+
+        </section>
+    
+    </header>
 
     <main>
 
         <!-- Imagem promocional -->
         <section class="promocional">
-            <img src="#" alt="">
+            <img src="Assets/Background/pool_topview2.jpg" alt="">
         </section>
 
+        <!-- Calendario -->
         <section>
             
-            <div id='calendar'></div>
+            <div class='calendario'></div>
+
+            <div class="comprar">
+
+            </div>
 
         </section>
 

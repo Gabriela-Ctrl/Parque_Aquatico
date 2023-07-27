@@ -10,6 +10,9 @@ body{
     background-color: #F6F4EB;
 }
 
+
+/* --------------- Header ------------------ */
+
 /* HEADER LOGO, NOME E MENU */
 header{
     display: flex;
@@ -24,7 +27,9 @@ header{
     display: flex;
 }
 
-/* LOGOTIPO E NOME */
+/* LOGOTIPO */
+
+
 
 /* BARRA DE PESQUISA */
 
@@ -79,4 +84,9 @@ header{
 }
 
 
-/* ---------------------- Body -------------------------- */
+/* ---------------------- Main -------------------------- */
+
+.calendario {
+
+
+}

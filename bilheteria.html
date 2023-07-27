@@ -10,7 +10,7 @@
   <!-- CSS -->
   <link rel="stylesheet" href="bilheteria.css">
 
-  <!-- Calendario -->
+  <!-- JS do Calendario -->
   <script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/index.global.min.js'></script>
     <script>
 
@@ -32,7 +32,7 @@
     <header>
 
         <section class="header_gap">
-          <img src="images/logo.png" alt="Logo do Jungle Splash">
+          <img src="Assets/Logo.png" alt="Logo do Jungle Splash">
           <h1>Jungle Splash</h1>
         </section>
     
@@ -50,27 +50,28 @@
         <section class="header_gap" id="nav_cont">
     
           <!-- Menu -->
-          <nav>
-    
-            <!-- Links -->
-            <div class="home botao">
-              <a href="index.html">Home</a>
-            </div>
-    
-            <!-- Links -->
-            <div class="atracoes botao">
-              <a href="atracoes.html">Atrações</a>
-            </div>
-    
-            <!-- Links -->
-            <div class="contato botao">
-              <a href="contato.html">Formulário de contato</a>
-            </div>
-          </nav>
-          
+            <nav class="links">
+        
+                <!-- Links -->
+                <div class="home botao">
+                <a href="index.html">Home</a>
+                </div>
+        
+                <!-- Links -->
+                <div class="atracoes botao">
+                <a href="atracoes.html">Atrações</a>
+                </div>
+        
+                <!-- Links -->
+                <div class="contato botao">
+                <a href="contato.html">Formulário de contato</a>
+                </div>
+
+            </nav>
+
         </section>
     
-      </header>
+    </header>
 
     <main>
 
@@ -79,9 +80,14 @@
             <img src="Assets/Background/pool_topview2.jpg" alt="">
         </section>
 
+        <!-- Calendario -->
         <section>
             
-            <div id='calendar'></div>
+            <div class='calendario'></div>
+
+            <div class="comprar">
+
+            </div>
 
         </section>
 

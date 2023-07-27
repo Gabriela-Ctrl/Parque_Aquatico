@@ -149,12 +149,15 @@ header{
     width: 50%;
 }
 
+
+
 /* Footer */
+
+
 
 footer {
     position: absolute;
     left: 0;
-    top: 570px;
     width: 100%;
     height: 40%;
     background-color: #1D5D9B;
@@ -215,7 +218,7 @@ a:hover {
 }
 
 .custom-shape-divider-top-1688056474 .shape-fill {
-    fill: #F6F4EB;
+    fill: #91C8E4;
 }
 
 /* ______________________________________________________________ */

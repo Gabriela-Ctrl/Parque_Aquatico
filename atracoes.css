@@ -1,0 +1,16 @@
+/* main __________________________________________________________________________________________________*/
+
+.filtro{
+    background-color:#1D5D9B;
+    color: aliceblue;
+    list-style: none;
+    display: flex;
+    padding: 10px;
+    margin-top: 10px;
+    justify-content: space-between;
+    font-size: 20px;
+    justify-content: space-around;
+}
+
+
+

@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
 
 /* RESET DE CONFIG PAGINA */
 *{
@@ -86,7 +87,64 @@ header{
 
 /* ---------------------- Main -------------------------- */
 
-.calendario {
 
+.promocional{
+    position: relative;
+    
+}
 
+.banner{
+    opacity: 0.5;
+    width: 100%;
+}
+
+.titulo-img {
+    position: absolute;
+
+    color: rgb(122, 0, 0);
+    font-size: 64px;
+
+    left: 25%;
+    top: 135px;
+}
+
+.texto-img{
+    position: absolute;
+
+    color: rgb(122, 0, 0);
+    font-size: 32px;
+    
+    left: 25%;
+    top: 205px;
+}
+  
+/* ------------------------------------------------------------ */
+
+.agendar {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.comprar{
+    font-size: 50px;
+    font-family: Bree Serif;
+
+    padding-top: 5%;
+    width: 50%;
+    background-color: #91C8E4;
+    
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+  
+}
+  
+
+#calendario{
+
+    background-color: #749BC2;
+    width: 50%;
 }

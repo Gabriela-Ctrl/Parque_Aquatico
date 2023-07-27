@@ -1,3 +1,40 @@
+
+body {
+    background-color:#75C2F6;
+}
+
+.contato {
+ 
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+}
+
+section form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Alinhamento dos textos das caixas de entrada Forms */
+section form label {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Letras do Form acima */
+section form label span {
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+}
+
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Footer */
+
 footer {
     position: absolute;
     left: 0;
@@ -31,10 +68,6 @@ footer h2 {
     margin-bottom: 10px;
 }
 
-address {
-    color: white;
-    text-align: center;
-}
 a {
     text-decoration: none;
     color: white;
@@ -64,7 +97,7 @@ a:hover {
 }
 
 .custom-shape-divider-top-1688056474 .shape-fill {
-    fill: #FFFFFF;
+    fill: #75C2F6;
 }
 
 /* ______________________________________________________________ */
@@ -92,6 +125,10 @@ footer img {
     margin-top: 30px;
 }
 
+.contato {
+    display: flex;
+    justify-content: center;
+}
 
 }
 

@@ -11,11 +11,12 @@
   <link rel="stylesheet" href="bilheteria.css">
 
   <!-- JS do Calendario -->
-  <script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/index.global.min.js'></script>
+  <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/index.global.min.js"></script>
+
     <script>
 
       document.addEventListener('DOMContentLoaded', function() {
-        var calendarEl = document.getElementById('calendar');
+        var calendarEl = document.getElementById('calendario');
         var calendar = new FullCalendar.Calendar(calendarEl, {
           initialView: 'dayGridMonth'
         });
@@ -77,17 +78,24 @@
 
         <!-- Imagem promocional -->
         <section class="promocional">
-            <img src="Assets/Background/pool_topview2.jpg" alt="">
+            <img src="Assets/Background/pool_topview2.jpg" class="banner" alt="">
+                
+            <H1 class="titulo-img">10% de DEESCONTO</H1>
+            <p class="texto-img">compre usando o pix e ganhe até 10% de desconto</p>
         </section>
 
         <!-- Calendario -->
-        <section>
-            
-            <div class='calendario'></div>
+        <section class="agendar">
 
             <div class="comprar">
-
+                <ul>
+                    <li>Ingresso: Inteiro</li>
+                    <li>Ingresso: Meia</li>
+                    <li>Ingresso: Infantil</li>
+                </ul>
             </div>
+            
+            <div id='calendario'></div>
 
         </section>
 

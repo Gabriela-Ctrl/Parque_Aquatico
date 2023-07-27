@@ -86,7 +86,52 @@ header{
 
 /* ---------------------- Main -------------------------- */
 
-.calendario {
 
+.promocional{
+    position: relative;
+    
+}
 
+.banner{
+    width: 100%;
+}
+
+.titulo-img {
+    position: absolute;
+
+    color: rgb(122, 0, 0);
+    font-size: 64px;
+
+    left: 25%;
+    top: 135px;
+}
+
+.texto-img{
+    position: absolute;
+
+    color: rgb(122, 0, 0);
+    font-size: 32px;
+    
+    left: 25%;
+    top: 205px;
+}
+  
+/* ------------------------------------------------------------ */
+
+.agendar {
+
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+.comprar{
+
+    background-color: #91C8E4;
+}
+
+#calendario{
+
+    background-color: #75C2F6;
+    width: 50%;
 }

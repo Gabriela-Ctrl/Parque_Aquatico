@@ -14,39 +14,73 @@
   <!-- ___________________________________________________________________ -->
   <!-- Cabeçalho -->
 
+  
   <header>
-    <img src="Assets/Logo.png" alt="Logo do Parque Aquático">
-    <h1>Parque Aquático</h1>
-    <!-- Links -->
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="atracoes.html">Atrações</a>
-      <a href="contato.html">Formulário de contato</a>
-    </nav>
-    <!-- Barra de pesquisa -->
-    <div class="pesquisa">
-      <input type="text" placeholder="Pesquisar...">
-      <button type="submit">Pesquisar</button>
-    </div>
+
+    <section class="header_gap">
+      <img src="Assets/Logo.png">
+      <h1>Jungle Splash</h1>
+    </section>
+
+  <!-- Barra de pesquisa -->
+      <div class="pesquisa">
+        <input type="text" placeholder="Pesquisar...">
+        <button type="submit">
+          <img src="#" alt="">
+        </button>
+      </div>
+
+    <!-- Links NAVEGAÇÃO -->
+
+    <!-- Container -->
+    <section class="header_gap" id="nav_cont">
+
+      <!-- Menu -->
+      <nav>
+
+        <!-- Links -->
+        <div class="home botao">
+          <a href="index.html">Home</a>
+        </div>
+
+        <!-- Links -->
+        <div class="atracoes botao">
+          <a href="atracoes.html">Atrações</a>
+        </div>
+
+        <!-- Links -->
+        <div class="contato botao">
+          <a href="contato.html">Contato</a>
+        </div>
+
+        <!-- Links -->
+        <div class="comprar botao">
+          <a href="bilheteria.html">Compre</a>
+        </div>
+      </nav>
+    </section>
+
   </header>
 
   <!-- ___________________________________________________________________ -->
   <!-- Sessão contato -->
   
   <section class="contato">
-   <div class="contatos">
-    <h2>Contato</h2>
-    <p> <img src="" alt="">Endereço: Rua X, 123, Bairro Y, Cidade, Estado</p>
-    <p><img src="" alt="">Telefone: (11) 9999-9999</p>
-    <p><img src="" alt="">E-mail: contato@parqueaquatico.com.br</p>
+
+   
+    <div class="contatos">
+      <h2>Contato</h2><br>
+    <p> <img src="" alt="">Endereço: Rua X, 123, Bairro Y, Cidade, Estado</p><br>
+    <p><img src="" alt="">Telefone: (11) 9999-9999</p><br>
+    <p><img src="" alt="">E-mail: contato@parqueaquatico.com.br</p><br>
 
   </div>
   <div class="forms">
     <form action="contact.php" method="post">
-      <input type="text" name="name"  placeholder="Nome"><br>
-      <input type="email" name="email" placeholder="E-mail"><br>
-      <input type="message" name="message" placeholder="Mensagem"><br>
-      <input type="submit" value="Enviar"><br>
+      <input type="text" name="name"  placeholder="Nome" style="width: 300px; height: 25px;"><br>
+      <input type="email" name="email" placeholder="E-mail" style="width: 300px; height: 25px;"><br>
+      <input type="message" name="message" placeholder="Mensagem" style="width: 300px; height: 50px;"><br>
+      <input type="submit" value="Enviar" style=" width: 50px;"><br>
     </form>
   </div>
   </section>

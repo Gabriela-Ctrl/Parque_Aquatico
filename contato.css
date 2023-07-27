@@ -1,36 +1,144 @@
+/* RESET DE CONFIG PAGINA */
+*{
+    padding: 0;
+    margin: 0;
+}
 
+/* FONTE */
+@import url('https://fonts.googleapis.com/css2?family= Ultra & display=swap');
+/* BODY COR DE FUNDO */
+body{
+    background-color: #F6F4EB;
+}
+
+/* HEADER LOGO, NOME E MENU */
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100px;
+    background-color: #1D5D9B;
+}
+
+/* ESPAÇAMENTO DENTRO DOS FILHOS DO HEADER */
+
+/* Container Logo e Nome */
+.header_gap{
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+/* Imagem */
+.header_gap img{
+    height: 90%;
+    width: 90px;
+}
+
+/* Título */
+.header_gap h1{
+    margin-left: 20px;
+    font-family: Ultra, sans-serif;
+}
+
+/* BARRA DE PESQUISA */
+
+/* Geral */
+.pesquisa, .pesquisa input, .pesquisa button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Container */
+.pesquisa{
+    width: 50%;
+    height:100%;  
+}
+
+/* Barra de Pesquisa */
+.pesquisa input{
+    height: 40%;
+    width: 50%;
+    border-radius: 100px;
+    border: hidden;
+    padding-left: 10px;
+}
+
+/* Botão de Pesquisa */
+.pesquisa button {
+    border-color: black;
+    width: 50px;
+    height: 40%;
+    margin-left: 20px;
+}
+
+/* MENU DE NAVEGAÇÃO */
+#nav_cont nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap:50px;
+    height: 100%;
+}
+
+/* Botões */
+.botao{
+    transition: 0.5s;
+    height: 50%;
+    display: flex;
+    align-items: center;
+}
+
+/* Hover Botões */
+.botao:hover{
+    background-color: #75C2F6;
+}
+
+/* Links */
+.botao a {
+    text-decoration: none;
+    color: #fff;
+}
 body {
-    background-color:#75C2F6;
+    background-color:#F6F4EB;
 }
 
 .contato {
  
   display: flex;
   justify-content: space-around;
-  padding: 15px;
+  padding: 150px;
+  font-size: 17px;
 }
 
 section form {
     display: flex;
     flex-direction: column;
     align-items: center;
+   
+   
+
 }
 
 /* Alinhamento dos textos das caixas de entrada Forms */
 section form label {
     display: flex;
     flex-direction: column;
+   
 }
 
 /* Letras do Form acima */
 section form label span {
     font-size: 0.8rem;
     margin-top: 0.5rem;
+    padding: 5px;
+    
 }
 
 
 h2 {
     font-family: 'Poppins', sans-serif;
+    font-size: 25px;
 }
 
 /* Footer */
@@ -68,6 +176,8 @@ footer h2 {
     margin-bottom: 10px;
 }
 
+
+
 a {
     text-decoration: none;
     color: white;
@@ -97,7 +207,7 @@ a:hover {
 }
 
 .custom-shape-divider-top-1688056474 .shape-fill {
-    fill: #75C2F6;
+    fill: #F6F4EB;
 }
 
 /* ______________________________________________________________ */

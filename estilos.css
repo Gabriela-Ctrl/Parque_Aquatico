@@ -86,7 +86,6 @@ header{
 .botao{
     transition: 0.5s;
     height: 50%;
-    width: ;
     display: flex;
     align-items: center;
 }

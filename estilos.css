@@ -36,6 +36,12 @@ header{
     width: 90px;
 }
 
+/* Título */
+.header_gap h1{
+    margin-left: 20px;
+    font-family: Ultra;
+}
+
 /* LOGOTIPO E NOME */
 
 /* BARRA DE PESQUISA */

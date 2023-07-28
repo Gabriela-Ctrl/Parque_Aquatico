@@ -3,14 +3,16 @@
 *{
     padding: 0;
     margin: 0;
-    background: url(Assets/Background/)
+   
 }
 
 /* FONTE */
 @import url('https://fonts.googleapis.com/css2?family= Ultra & display=swap');
 /* BODY COR DE FUNDO */
 body{
-    background-color: #fff;
+    /* background-color: #fff; */
+    background: url(Assets/Background/banner.gif);
+    background-size: cover;
 }
 
 
@@ -131,8 +133,13 @@ li a{
 
 /* _________________________________________________________________________________ */
 /* Barra de Pesquisa */
+.pesquisa{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}
 .pesquisa input{
-    height: 40%;
+    height: 60%;
     width: 50%;
     border-radius: 100px;
     border: hidden;

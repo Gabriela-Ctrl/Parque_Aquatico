@@ -87,35 +87,23 @@ header{
 
 /* ---------------------- Main -------------------------- */
 
-
-.promocional{
-    position: relative;
-    
-}
-
 .banner{
-    opacity: 0.5;
-    width: 100%;
+
+    /* width: 100%; */
 }
 
-.titulo-img {
-    position: absolute;
+.ingresso{
 
-    color: rgb(122, 0, 0);
-    font-size: 64px;
-
-    left: 25%;
-    top: 135px;
+    background-color: white;
+    padding: 17px;
+    display: flex;
+    justify-content: space-between;
 }
 
-.texto-img{
-    position: absolute;
+.ingresso a img{
 
-    color: rgb(122, 0, 0);
-    font-size: 32px;
-    
-    left: 25%;
-    top: 205px;
+    display: flex;
+    align-items: center;
 }
   
 /* ------------------------------------------------------------ */
@@ -155,12 +143,15 @@ header{
 
 
 
+/* FOOTER */
 footer {
     position: absolute;
+    margin-top: 20px;
     left: 0;
     width: 100%;
     height: 40%;
     background-color: #1D5D9B;
+
     /* background-color: #4682A9; */
     color: white;
     text-align: center;
@@ -171,25 +162,51 @@ footer {
 
 }
 
-
+/* Item da lista */
 li {
     list-style: none;
     padding: 20px;
 }
 
-
+/* Imagem do footer */
 footer img {
     width: 200px;
     height: auto;
     /* padding-bottom: 120px; */
 }
+
+/* Parágrafo do Footer */
 footer p {
     font-size: 18px;
     margin-bottom: 10px;
 }
 
+/* Container dos Links */
+.sociais{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 50px;
+}
 
+/* Container das redes sociais */
+.redes{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+}
 
+/* Imagens das redes sociais */
+.redes img{
+    height: 40px;
+    width: 40px;
+    border-radius: 100px;
+    
+}
+
+/* Links */
 a {
     text-decoration: none;
     color: white;
@@ -218,10 +235,10 @@ a:hover {
 }
 
 .custom-shape-divider-top-1688056474 .shape-fill {
-    fill: #91C8E4;
+    fill: #F6F4EB;
 }
 
-/* ______________________________________________________________ */
+/* ________ */
 /* Responsividade */
 
 @media only screen and (max-width: 798px) {

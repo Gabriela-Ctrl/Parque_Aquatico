@@ -12,7 +12,9 @@ body{
     /* background-color: #F6F4EB; */
     background: url(Assets/Background/banner.gif);
     background-size: cover;
+    
 }
+
 /* HEADER BASICO */
 header{
     display: flex;

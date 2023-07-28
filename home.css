@@ -10,7 +10,6 @@
 @import url('https://fonts.googleapis.com/css2?family= Ultra & display=swap');
 /* BODY COR DE FUNDO */
 body{
-    /* background-color: #fff; */
     background: url(Assets/Background/banner.gif);
     background-size: cover;
 }
@@ -155,17 +154,6 @@ li a{
     margin-left: 20px;
 }
 
-
-/* Hover Botões */
-.botao:hover{
-    background-color: ;
-}
-
-/* Links */
-.botao a {
-    text-decoration: none;
-    color: #fff;
-}
 
 
 /* ___________________________________________________________________ */

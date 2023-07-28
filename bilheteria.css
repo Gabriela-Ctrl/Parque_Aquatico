@@ -91,6 +91,21 @@ header{
 
     /* width: 100%; */
 }
+
+.ingresso{
+
+    background-color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ingresso a img{
+    width: 125%;
+
+    display: flex;
+
+}
   
 /* ------------------------------------------------------------ */
 
@@ -120,7 +135,8 @@ header{
 #calendario{
 
     background-color: #749BC2;
-    width: 50%;
+    width: 45%;
+    scale: 0.9;
 }
 
 
@@ -132,6 +148,7 @@ header{
 /* FOOTER */
 footer {
     position: absolute;
+    margin-top: 20px;
     left: 0;
     width: 100%;
     height: 40%;
@@ -220,37 +237,43 @@ a:hover {
 }
 
 .custom-shape-divider-top-1688056474 .shape-fill {
-    fill: #91C8E4;
+    fill: #F6F4EB;
 }
 
 /* ________ */
-/* Responsividade */
-
-@media only screen and (max-width: 798px) {
-
-    footer {
-        flex-direction: column;
-        height: auto;
-    }
-    li {
-        padding: 25px;
-    }
-    ul{
-        display: flex;
-        padding-left: 0;
+/* RESPONSIVIDADE DO FOOTER */
+footer {
+    flex-direction: column;
+    height: auto;
+}
+li {
+    padding: 25px;
+}
+ul{
+    display: flex;
+    padding-left: 0;
 
 }
 footer img {
-   padding-left: 20px;
+padding-left: 20px;
+scale: 0.6;
 
 }
+
 .sociais {
-    margin-top: 30px;
+margin-top: 30px;
+gap: 30px;
+}
+
+.sociais img{
+scale: 0.6;
+}
+.redes img{
+scale: 0.8;
 }
 
 .contato {
-    display: flex;
-    justify-content: center;
+display: flex;
+justify-content: center;
 }
 
-}

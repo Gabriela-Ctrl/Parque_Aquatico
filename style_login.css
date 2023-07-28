@@ -155,6 +155,7 @@ li {
 footer img {
     width: 200px;
     height: auto;
+    
     /* padding-bottom: 120px; */
 }
 
@@ -185,8 +186,6 @@ footer p {
 .redes img{
     height: 40px;
     width: 40px;
-    border-radius: 100px;
-    
 }
 
 /* Links */
@@ -226,6 +225,22 @@ a:hover {
 
 @media only screen and (max-width: 798px) {
 
+    /* RESPONSIVIDADE DO HEADER */
+
+    header{
+        padding-left: 25px;
+    }
+    header img{
+        height: 80px;
+        width:80px;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    header h1{
+        font-size: 23px;
+    }
+    /* RESPONSIVIDADE DO FOOTER */
     footer {
         flex-direction: column;
         height: auto;
@@ -240,10 +255,20 @@ a:hover {
 }
 footer img {
    padding-left: 20px;
+   scale: 0.6;
 
 }
+
 .sociais {
     margin-top: 30px;
+    gap: 30px;
+}
+
+.sociais img{
+    scale: 0.6;
+}
+.redes img{
+    scale: 0.8;
 }
 
 .contato {

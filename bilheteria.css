@@ -87,35 +87,9 @@ header{
 
 /* ---------------------- Main -------------------------- */
 
-
-.promocional{
-    position: relative;
-    
-}
-
 .banner{
-    opacity: 0.5;
+
     width: 100%;
-}
-
-.titulo-img {
-    position: absolute;
-
-    color: rgb(122, 0, 0);
-    font-size: 64px;
-
-    left: 25%;
-    top: 135px;
-}
-
-.texto-img{
-    position: absolute;
-
-    color: rgb(122, 0, 0);
-    font-size: 32px;
-    
-    left: 25%;
-    top: 205px;
 }
   
 /* ------------------------------------------------------------ */

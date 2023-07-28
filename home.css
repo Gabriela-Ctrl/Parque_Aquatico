@@ -157,6 +157,19 @@ li a{
 /* ___________________________________________________________________ */
 h1{
     font-family: 'Ultra', serif;
+    color: #f4d160;
+}
+.box {
+    background-color: #fff;
+    opacity: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+    
+}
+.box1{
+    box-shadow: #555;
 }
 
 /* ___________________________________________________________________ */

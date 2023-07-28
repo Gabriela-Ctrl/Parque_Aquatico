@@ -14,41 +14,131 @@ body{
 
 /* --------------- Header ------------------ */
 
-/* HEADER LOGO, NOME E MENU */
-header{
+/* _______________________ */
+/* Header */
+
+.navbar{
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
+    padding: 20px;
+}
+nav{
+    flex: 1;
+    text-align: center;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 5px;
+    color: #91C8E4;
+}
+nav ul li a:hover{
+    background-color: #91C8E4;
+    padding: 5px;
+    border-radius: 5px;
+    color: #fff;
+    transition: 0.5s;
+}
+.log{
+    margin-left: 10px;
+}
+
+li a{
+    font-weight: bolder;
+    color: #555;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header{
+    background: #F6F4EB;
     height: 100px;
-    background-color: #1D5D9B;
-}
-
-/* ESPAÇAMENTO DENTRO DOS FILHOS DO HEADER */
-.header_gap{
     display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
-/* LOGOTIPO */
+
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.col-2{
+    padding: 30px;
+    flex-basis: 50%;
+    min-width: 300px;
+}
+.col-2 img{
+    max-width: 100%;
+    padding: 50px 0;
+}
+.col-2 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+}
+.btn{
+    display: inline-block;
+    background: #006C8A;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: 0.5s, color 0.3s, opacity 1s;
+}
+.btn:hover{
+    background: #006C8A, #fff;
+    opacity: 80% #fff;
+}
+
+/* ___________________________ */
+.custom-shape-divider-top-1690540174 { 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    overflow: hidden; 
+    line-height: 0; 
+    
+} 
 
 
+.custom-shape-divider-top-1690543098 svg { 
+    position: relativa; 
+    display: block; 
+    width: calc(100% + 1.3px); 
+    height: 107px; 
+} 
 
-/* BARRA DE PESQUISA */
+.custom-shape-divider-top-1690543098 .shape-fill { 
+    fill: #F6F4EB; 
+}
 
-/* Geral */
-.pesquisa, .pesquisa input, .pesquisa button{
+
+/* ___________________________ */
+/* Barra de Pesquisa */
+.pesquisa{
     display: flex;
     justify-content: center;
-    align-items: center;
+    height: 50px;
+    margin-top: 20px;
 }
-/* Container */
-.pesquisa{
-    width: 50%;
-    height:100%;  
-}
-
-/* Barra de Pesquisa */
 .pesquisa input{
-    height: 40%;
+    height: 60%;
     width: 50%;
     border-radius: 100px;
     border: hidden;
@@ -63,33 +153,15 @@ header{
     margin-left: 20px;
 }
 
-/* MENU DE NAVEGAÇÃO */
-#nav_cont nav{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    gap:50px;
-    height: 100%;
-}
-
-/* Botões */
-.botao{
-    transition: 0.5s;
-    height: 75%;
-    /* width: ; */
-}
-
-/* Hover Botões */
-.botao:hover{
-    background-color: #75C2F6;
-}
-
 
 /* ---------------------- Main -------------------------- */
 
 .banner{
 
-    /* width: 100%; */
+    opacity: 0.7;
+    width: 100%;
+
+    margin-bottom: 10px;
 }
 
 .ingresso{
@@ -137,7 +209,7 @@ header{
 
     display: flex;
     justify-content: center;
-    
+
     background-color: #749BC2;
     width: 50%;
 }

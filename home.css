@@ -63,9 +63,6 @@ li a{
     align-items: center;
 }
 
-p{
-    color: #555;
-}
 
 .container{
     max-width: 1300px;
@@ -108,15 +105,28 @@ p{
 }
 
 /* _________________________________________________________________________________ */
-/* .custom-shape-divider-top-1690540174 { 
+.custom-shape-divider-top-1690540174 { 
     position: absolute; 
     top: 0; 
     left: 0; 
     width: 100%; 
     overflow: hidden; 
     line-height: 0; 
-    color: #F6F4EB;
-}  */
+    
+} 
+
+
+.custom-shape-divider-top-1690543098 svg { 
+    position: relativa; 
+    display: block; 
+    width: calc(100% + 1.3px); 
+    height: 107px; 
+} 
+
+.custom-shape-divider-top-1690543098 .shape-fill { 
+    fill: #F6F4EB; 
+}
+
 
 /* _________________________________________________________________________________ */
 /* Barra de Pesquisa */
@@ -135,7 +145,6 @@ p{
     height: 40%;
     margin-left: 20px;
 }
-
 
 
 /* Hover Botões */

@@ -1,42 +1,132 @@
 *{
     padding: 0%; 
     margin: 0%;
-    
- }
-header{
+}
+.navbar{
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
+    padding: 20px;
+}
+nav{
+    flex: 1;
+    text-align: center;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 5px;
+    color: #91C8E4;
+}
+nav ul li a:hover{
+    background-color: #91C8E4;
+    padding: 5px;
+    border-radius: 5px;
+    color: #fff;
+    transition: 0.5s;
+}
+.log{
+    margin-left: 10px;
+} 
+
+li a{
+    font-weight: bolder;
+    color: #555;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header{
+    background: #F6F4EB;
+    width: 100%;
     height: 100px;
-    background-color: #1D5D9B;
-}
-
-/* ESPAÇAMENTO DENTRO DOS FILHOS DO HEADER */
-.header_gap{
     display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
-/* LOGOTIPO */
+
+.container{
+    width: 100%;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.col-2{
+    padding: 30px;
+    flex-basis: 50%;
+    min-width: 300px;
+}
+.col-2 img{
+    max-width: 100%;
+    padding: 50px 0;
+}
+.col-2 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+}
+.btn{
+    display: inline-block;
+    background: #006C8A;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: 0.5s, color 0.3s, opacity 1s;
+}
+.btn:hover{
+    background: #006C8A, #fff;
+    opacity: 80% #fff;
+}
+
+/* ___________________________ */
+.custom-shape-divider-top-1690540174 { 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    overflow: hidden; 
+    line-height: 0; 
+    
+} 
 
 
+.custom-shape-divider-top-1690543098 svg { 
+    position: relativa; 
+    display: block; 
+    width: calc(100% + 1.3px); 
+    height: 107px; 
+   
+} 
 
-/* BARRA DE PESQUISA */
+.custom-shape-divider-top-1690543098 .shape-fill { 
+    fill: #F6F4EB; 
+}
 
-/* Geral */
-.pesquisa, .pesquisa input, .pesquisa button{
+
+/* ___________________________ */
+/* Barra de Pesquisa */
+.pesquisa{
     display: flex;
     justify-content: center;
-    align-items: center;
+    height: 50px;
+    margin-top: 20px;
+    color: rgb(178, 187, 195);
 }
-/* Container */
-.pesquisa{
-    width: 50%;
-    height:100%;  
-}
-
-/* Barra de Pesquisa */
 .pesquisa input{
-    height: 40%;
+    height: 60%;
     width: 50%;
     border-radius: 100px;
     border: hidden;
@@ -74,7 +164,7 @@ header{
 
 /* main __________________________________________________________________________________________________*/
 
-nav{
+.nav2{
     /* margin-top: 50px; */
     background-color:#1D5D9B;
     color: aliceblue;
@@ -87,9 +177,10 @@ nav{
     justify-content: space-around;
 }
 
-nav a:hover{
+.nav2 a:hover{
     background-color: #91C8E4;
-    padding: 5px;
+    scale: 1.2em; ;
+    /* padding: 5px; */
     border-radius: 3px;
 }
 
@@ -131,6 +222,7 @@ nav a:hover{
     margin-top: 35px;
    
 }
+
 .container2 {
     background-color: #f4c060;
     display: flex;
@@ -342,9 +434,57 @@ footer img {
 }
 
 }
+/* _____________________________________ */
+footer {
+    flex-direction: column;
+    height: auto;
+}
+li {
+    padding: 25px;
+}
+ul{
+    display: flex;
+    padding-left: 0;
+
+}
+footer img {
+padding-left: 20px;
+scale: 0.6;
+
+}
+
+.sociais {
+margin-top: 30px;
+gap: 30px;
+}
+
+.sociais img{
+scale: 0.6;
+}
+.redes img{
+scale: 0.8;
+/* border-radius: 0; */
+
+}
+
+.contato {
+display: flex;
+justify-content: center;
+}
+
+
+/* ______________________________________ */
 /* footer {
     position: absolute;
     left: 0;
+Toboáguas
+
+
+Piscinas
+Rio lento
+
+
+Espaço 
     width: 100%;
     height: 40%;
     background-color: #1D5D9B; */

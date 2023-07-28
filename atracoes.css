@@ -87,8 +87,10 @@ header{
     justify-content: space-around;
 }
 
+
+
 .container {
-    background-color: #f3cc4c;
+    background-color: #75C2F6;
     display: flex;
     justify-content: space-between;
     justify-content: space-around;  
@@ -111,12 +113,12 @@ header{
     display: flex;
     margin-left: 255px;
     font-size: 50px;
-    color: #1D5D9B;
+    color: #f3bb4c;
     margin-top: 35px;
     
 }
 .container2 {
-    background-color: #f3bb4c;
+    background-color: #64baf4;
     display: flex;
     justify-content: space-between;
     justify-content: space-around;  
@@ -139,13 +141,13 @@ header{
     display: flex;
     margin-left: 255px;
     font-size: 50px;
-    color: #1D5D9B;
+    color: #f3bb4c;;
     margin-top: 35px;
     margin-right: 80px;
     
 }
 .container3 {
-    background-color: #f3b04c;
+    background-color: #4fb0f1;
     display: flex;
     justify-content: space-between;
     justify-content: space-around;  
@@ -168,12 +170,12 @@ header{
     display: flex;
     margin-left: 255px;
     font-size: 50px;
-    color: #1D5D9B;
+    color: #f3bb4c;;
     margin-top: 35px;
     
 }
 .container4 {
-    background-color: #f3cc4c;
+    background-color: #1D5D9B;
     display: flex;
     justify-content: space-between;
     justify-content: space-around;  
@@ -195,12 +197,12 @@ header{
     display: flex;
     margin-left: 255px;
     font-size: 50px;
-    color: #1D5D9B;
+    color: #f3bb4c;;
     margin-top: 35px;
     margin-right: 80px;
 }
 .container4 {
-    background-color:#f38f4c;
+    background-color:1D5D9B;
     display: flex;
     justify-content: space-between;
     justify-content: space-around;  

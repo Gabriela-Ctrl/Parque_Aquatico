@@ -137,6 +137,7 @@ li a{
     display: flex;
     justify-content: center;
     height: 50px;
+    margin-top: 20px;
 }
 .pesquisa input{
     height: 60%;
